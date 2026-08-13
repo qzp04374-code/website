@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="ヒカリのタネ。やってみたかったことを、作品や体験に変えるクリエイティブサービス。" />
   <title>ヒカリのタネ｜やってみたかったを、かたちに。</title>
-  <link rel="preconnect" href="https://images.unsplash.com">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -15,11 +14,7 @@
         <span class="logo-mark">✦</span>
         <span>ヒカリのタネ</span>
       </a>
-      <div class="nav-links">
-        <a href="#about">私たちについて</a>
-        <a href="#services">サービス</a>
-        <a class="nav-contact" href="#contact">お問い合わせ</a>
-      </div>
+      <a class="reserve-pill" href="#reserve">予約する</a>
     </nav>
 
     <div class="hero-photo"></div>
@@ -32,14 +27,72 @@
         絵本、自分史、出版、音楽、デザイン、健康。<br>
         あなたの「いつか」を、今日から一緒に育てます。
       </p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="#services">できることを見る</a>
-        <a class="btn btn-light" href="#about">ヒカリのタネとは</a>
-      </div>
     </div>
   </header>
 
   <main>
+    <section class="menu-section">
+      <div class="section-head simple">
+        <div>
+          <p class="section-label">MENU</p>
+          <h2>ヒカリのタネを知る</h2>
+        </div>
+        <p class="section-intro">写真から直感的に選べる、5つの入口です。</p>
+      </div>
+
+      <div class="menu-grid">
+        <a class="menu-card" href="#about">
+          <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=88" alt="わたしたちについて">
+          <div class="menu-shade"></div>
+          <div class="menu-copy">
+            <span>01</span>
+            <h3>わたしたちについて</h3>
+            <p>ヒカリのタネの想いと、大切にしていること。</p>
+          </div>
+        </a>
+
+        <a class="menu-card" href="#first">
+          <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=88" alt="はじめての方へ">
+          <div class="menu-shade"></div>
+          <div class="menu-copy">
+            <span>02</span>
+            <h3>はじめての方へ</h3>
+            <p>ご相談から完成までの流れをご案内します。</p>
+          </div>
+        </a>
+
+        <a class="menu-card" href="#services">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=88" alt="サービス">
+          <div class="menu-shade"></div>
+          <div class="menu-copy">
+            <span>03</span>
+            <h3>サービス</h3>
+            <p>あなたの「やってみたい」を形にするメニュー。</p>
+          </div>
+        </a>
+
+        <a class="menu-card" href="#contact">
+          <img src="https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=1200&q=88" alt="お問い合わせ">
+          <div class="menu-shade"></div>
+          <div class="menu-copy">
+            <span>04</span>
+            <h3>お問い合わせ</h3>
+            <p>まだ漠然としていても、気軽にご相談ください。</p>
+          </div>
+        </a>
+
+        <a class="menu-card" href="#reserve">
+          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=88" alt="予約">
+          <div class="menu-shade"></div>
+          <div class="menu-copy">
+            <span>05</span>
+            <h3>予約</h3>
+            <p>相談、健康教室、リラクゼーションのご予約はこちら。</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
     <section id="about" class="about">
       <div class="about-copy">
         <p class="section-label">ABOUT US</p>
@@ -49,13 +102,23 @@
           「家族に物語を贈りたい」。
           ヒカリのタネは、そんな想いを作品や体験へ変えていく場所です。
         </p>
-        <p>
-          完成したものだけではなく、話すこと、思い出すこと、
-          選ぶこと、つくること。その時間そのものを大切にしています。
-        </p>
       </div>
       <div class="about-photo">
-        <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1200&q=88" alt="明るい空間で創作を楽しむイメージ">
+        <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1200&q=88" alt="創作を楽しむイメージ">
+      </div>
+    </section>
+
+    <section id="first" class="first">
+      <div class="first-photo"></div>
+      <div class="first-copy">
+        <p class="section-label">FIRST VISIT</p>
+        <h2>はじめての方へ</h2>
+        <p>まずは「こんなことをしてみたい」と話していただくだけで大丈夫です。</p>
+        <ol>
+          <li><strong>相談する</strong><br>やってみたいことや目的を伺います。</li>
+          <li><strong>一緒に考える</strong><br>方法、期間、費用の目安を整理します。</li>
+          <li><strong>形にする</strong><br>無理のないペースで制作・体験を進めます。</li>
+        </ol>
       </div>
     </section>
 
@@ -65,95 +128,39 @@
           <p class="section-label">SERVICES</p>
           <h2>あなたの中のタネを、<br>いろいろな形へ。</h2>
         </div>
-        <p class="section-intro">
-          つくることも、整えることも、楽しむことも。<br>
-          年齢に関係なく「やってみたい」から始められます。
-        </p>
+        <p class="section-intro">年齢に関係なく、「やってみたい」から始められます。</p>
       </div>
 
       <div class="service-grid">
-        <article class="service-card service-feature">
-          <div class="service-photo photo-book"></div>
-          <div class="service-body">
-            <span class="number">01</span>
-            <h3>絵本作成</h3>
-            <p>思い出、家族の物語、空想の世界を、世界にひとつだけの絵本へ。</p>
-          </div>
-        </article>
-
-        <article class="service-card">
-          <div class="service-body">
-            <span class="number">02</span>
-            <h3>自分史</h3>
-            <p>歩んできた時間を、読みやすく美しい一冊として残します。</p>
-          </div>
-        </article>
-
-        <article class="service-card">
-          <div class="service-body">
-            <span class="number">03</span>
-            <h3>出版</h3>
-            <p>原稿づくりから構成、デザインまで、本になる過程を支援します。</p>
-          </div>
-        </article>
-
-        <article class="service-card">
-          <div class="service-body">
-            <span class="number">04</span>
-            <h3>CDデビュー</h3>
-            <p>歌や声を音源として残し、人生の記念になる作品へ。</p>
-          </div>
-        </article>
-
-        <article class="service-card service-feature">
-          <div class="service-photo photo-shirt"></div>
-          <div class="service-body">
-            <span class="number">05</span>
-            <h3>デザインTシャツ</h3>
-            <p>記念日、仲間、イベントの想いを、身につけられるデザインに。</p>
-          </div>
-        </article>
-
-        <article class="service-card">
-          <div class="service-body">
-            <span class="number">06</span>
-            <h3>健康教室</h3>
-            <p>毎日の暮らしに取り入れやすい、楽しく続く健康づくり。</p>
-          </div>
-        </article>
-
-        <article class="service-card">
-          <div class="service-body">
-            <span class="number">07</span>
-            <h3>リラクゼーション</h3>
-            <p>心と身体をゆるめ、日常に小さな余白をつくる時間を。</p>
-          </div>
-        </article>
+        <article class="service-card"><h3>絵本作成</h3><p>思い出や物語を、世界にひとつだけの絵本へ。</p></article>
+        <article class="service-card"><h3>自分史</h3><p>歩んできた時間を、美しい一冊として残します。</p></article>
+        <article class="service-card"><h3>出版</h3><p>原稿づくりからデザインまで、本になる過程を支援します。</p></article>
+        <article class="service-card"><h3>CDデビュー</h3><p>歌や声を、人生の記念になる音源に。</p></article>
+        <article class="service-card"><h3>デザインTシャツ</h3><p>想いや思い出を、身につけられるデザインへ。</p></article>
+        <article class="service-card"><h3>健康教室</h3><p>楽しく続けられる健康づくりをサポートします。</p></article>
+        <article class="service-card"><h3>リラクゼーション</h3><p>心と身体をゆるめ、日常に余白をつくる時間を。</p></article>
       </div>
     </section>
 
-    <section class="story">
-      <div class="story-photo"></div>
-      <div class="story-panel">
-        <p class="section-label light">OUR PHILOSOPHY</p>
-        <h2>何歳からでも、<br>新しい物語は始められる。</h2>
-        <p>
-          大きな夢でなくてもかまいません。
-          「一度やってみたかった」という気持ちは、
-          それだけで十分なスタートです。
-        </p>
+    <section id="contact" class="contact split">
+      <div class="contact-image"></div>
+      <div class="contact-copy">
+        <p class="section-label">CONTACT</p>
+        <h2>お問い合わせ</h2>
+        <p>まだ形になっていなくても大丈夫です。お話を伺いながら、一緒に方法を考えます。</p>
+        <a class="btn btn-primary" href="mailto:example@example.com">メールで相談する</a>
       </div>
     </section>
 
-    <section id="contact" class="contact">
-      <p class="section-label">CONTACT</p>
-      <h2>まずは、やってみたいことを<br>聞かせてください。</h2>
-      <p>
-        まだ形になっていなくても大丈夫です。<br>
-        お話を伺いながら、一緒に方法を考えます。
-      </p>
-      <a class="btn btn-primary large" href="mailto:example@example.com">お問い合わせ</a>
-      <p class="note">※メールアドレスは後から変更できます。</p>
+    <section id="reserve" class="reserve split reverse">
+      <div class="reserve-image"></div>
+      <div class="reserve-copy">
+        <p class="section-label">RESERVATION</p>
+        <h2>予約</h2>
+        <p>相談、健康教室、リラクゼーションなどの予約窓口です。</p>
+        <a class="btn btn-primary" href="#">予約ページへ</a>
+        <p class="note">※予約システムへのリンクは後から設定できます。</p>
+      </div>
     </section>
   </main>
 
