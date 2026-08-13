@@ -3,99 +3,167 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>やってみたかったを、かたちに。</title>
+  <meta name="description" content="ヒカリのタネ。やってみたかったことを、作品や体験に変えるクリエイティブサービス。" />
+  <title>ヒカリのタネ｜やってみたかったを、かたちに。</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="hero">
     <nav class="nav">
-      <div class="brand">LIFE DESIGN STUDIO</div>
-      <a class="nav-link" href="#services">サービス</a>
+      <a class="logo" href="#">
+        <span class="logo-mark">✦</span>
+        <span>ヒカリのタネ</span>
+      </a>
+      <div class="nav-links">
+        <a href="#about">私たちについて</a>
+        <a href="#services">サービス</a>
+        <a class="nav-contact" href="#contact">お問い合わせ</a>
+      </div>
     </nav>
 
-    <div class="hero-inner">
-      <p class="eyebrow">CREATE YOUR STORY</p>
-      <h1>やってみたかったを、<br>かたちに。</h1>
+    <div class="hero-photo"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="eyebrow">HIKARI NO TANE</p>
+      <h1>やってみたかったを、<br><em>かたちに。</em></h1>
       <p class="lead">
         絵本、自分史、出版、音楽、デザイン、健康。<br>
-        あなたの中にある想いを、作品や体験に変えていきます。
+        あなたの「いつか」を、今日から一緒に育てます。
       </p>
-      <a class="cta" href="#services">サービスを見る</a>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#services">できることを見る</a>
+        <a class="btn btn-light" href="#about">ヒカリのタネとは</a>
+      </div>
     </div>
   </header>
 
   <main>
-    <section class="intro">
-      <p class="section-kicker">OUR IDEA</p>
-      <h2>人生には、まだ形になっていない<br>物語があります。</h2>
-      <p>
-        「いつか本を出してみたい」「自分の歌を残したい」<br>
-        「家族のために何かをつくりたい」。<br>
-        そんな小さな願いを、無理なく、一緒に形にしていく場所です。
-      </p>
+    <section id="about" class="about">
+      <div class="about-copy">
+        <p class="section-label">ABOUT US</p>
+        <h2>人生の中にある小さな願いを、<br>光の当たる場所へ。</h2>
+        <p class="large-copy">
+          「本を出してみたい」「自分の歌を残したい」
+          「家族に物語を贈りたい」。
+          ヒカリのタネは、そんな想いを作品や体験へ変えていく場所です。
+        </p>
+        <p>
+          完成したものだけではなく、話すこと、思い出すこと、
+          選ぶこと、つくること。その時間そのものを大切にしています。
+        </p>
+      </div>
+      <div class="about-photo">
+        <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1200&q=88" alt="明るい空間で創作を楽しむイメージ">
+      </div>
     </section>
 
     <section id="services" class="services">
       <div class="section-head">
-        <p class="section-kicker">SERVICES</p>
-        <h2>できること</h2>
+        <div>
+          <p class="section-label">SERVICES</p>
+          <h2>あなたの中のタネを、<br>いろいろな形へ。</h2>
+        </div>
+        <p class="section-intro">
+          つくることも、整えることも、楽しむことも。<br>
+          年齢に関係なく「やってみたい」から始められます。
+        </p>
       </div>
 
-      <div class="grid">
-        <article class="card">
-          <span>01</span>
-          <h3>絵本作成</h3>
-          <p>思い出や物語を、世界にひとつだけの絵本へ。</p>
+      <div class="service-grid">
+        <article class="service-card service-feature">
+          <div class="service-photo photo-book"></div>
+          <div class="service-body">
+            <span class="number">01</span>
+            <h3>絵本作成</h3>
+            <p>思い出、家族の物語、空想の世界を、世界にひとつだけの絵本へ。</p>
+          </div>
         </article>
-        <article class="card">
-          <span>02</span>
-          <h3>自分史</h3>
-          <p>歩んできた人生を、読みやすく美しい一冊にまとめます。</p>
+
+        <article class="service-card">
+          <div class="service-body">
+            <span class="number">02</span>
+            <h3>自分史</h3>
+            <p>歩んできた時間を、読みやすく美しい一冊として残します。</p>
+          </div>
         </article>
-        <article class="card">
-          <span>03</span>
-          <h3>出版</h3>
-          <p>原稿づくりからデザインまで、本になるまでを支援します。</p>
+
+        <article class="service-card">
+          <div class="service-body">
+            <span class="number">03</span>
+            <h3>出版</h3>
+            <p>原稿づくりから構成、デザインまで、本になる過程を支援します。</p>
+          </div>
         </article>
-        <article class="card">
-          <span>04</span>
-          <h3>CDデビュー</h3>
-          <p>歌や言葉を音源として残し、記念作品に仕上げます。</p>
+
+        <article class="service-card">
+          <div class="service-body">
+            <span class="number">04</span>
+            <h3>CDデビュー</h3>
+            <p>歌や声を音源として残し、人生の記念になる作品へ。</p>
+          </div>
         </article>
-        <article class="card">
-          <span>05</span>
-          <h3>デザインTシャツ</h3>
-          <p>記念日やイベント、チームの想いを身につけるデザインへ。</p>
+
+        <article class="service-card service-feature">
+          <div class="service-photo photo-shirt"></div>
+          <div class="service-body">
+            <span class="number">05</span>
+            <h3>デザインTシャツ</h3>
+            <p>記念日、仲間、イベントの想いを、身につけられるデザインに。</p>
+          </div>
         </article>
-        <article class="card">
-          <span>06</span>
-          <h3>健康教室</h3>
-          <p>毎日の生活に取り入れやすい、楽しく続けられる健康づくり。</p>
+
+        <article class="service-card">
+          <div class="service-body">
+            <span class="number">06</span>
+            <h3>健康教室</h3>
+            <p>毎日の暮らしに取り入れやすい、楽しく続く健康づくり。</p>
+          </div>
         </article>
-        <article class="card wide">
-          <span>07</span>
-          <h3>リラクゼーション</h3>
-          <p>心と身体を整える、ゆったりとした時間を提供します。</p>
+
+        <article class="service-card">
+          <div class="service-body">
+            <span class="number">07</span>
+            <h3>リラクゼーション</h3>
+            <p>心と身体をゆるめ、日常に小さな余白をつくる時間を。</p>
+          </div>
         </article>
       </div>
     </section>
 
-    <section class="message">
-      <div>
-        <p class="section-kicker">MESSAGE</p>
-        <h2>作品をつくることは、<br>人生をもう一度味わうこと。</h2>
+    <section class="story">
+      <div class="story-photo"></div>
+      <div class="story-panel">
+        <p class="section-label light">OUR PHILOSOPHY</p>
+        <h2>何歳からでも、<br>新しい物語は始められる。</h2>
+        <p>
+          大きな夢でなくてもかまいません。
+          「一度やってみたかった」という気持ちは、
+          それだけで十分なスタートです。
+        </p>
       </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <p class="section-label">CONTACT</p>
+      <h2>まずは、やってみたいことを<br>聞かせてください。</h2>
       <p>
-        私たちが大切にしているのは、完成品だけではありません。<br>
-        話すこと、思い出すこと、選ぶこと、つくること。<br>
-        その過程そのものが、新しい体験になると考えています。
+        まだ形になっていなくても大丈夫です。<br>
+        お話を伺いながら、一緒に方法を考えます。
       </p>
+      <a class="btn btn-primary large" href="mailto:example@example.com">お問い合わせ</a>
+      <p class="note">※メールアドレスは後から変更できます。</p>
     </section>
   </main>
 
   <footer>
-    <div class="brand">LIFE DESIGN STUDIO</div>
-    <p>人生を、作品に。体験に。思い出に。</p>
+    <a class="logo footer-logo" href="#">
+      <span class="logo-mark">✦</span>
+      <span>ヒカリのタネ</span>
+    </a>
+    <p>人生に、まだ見つけていない楽しみを。</p>
+    <small>© HIKARI NO TANE</small>
   </footer>
 </body>
 </html>
